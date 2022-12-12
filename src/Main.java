@@ -8,15 +8,20 @@ public class Main {
             String comm = txt.nextLine();
 
             if (Objects.equals(comm, "hello")){
-                System.out.println("Hello World");
+                System.out.println("Hello World!!!");
             }
             else if (Objects.equals(comm, "info")){
-                System.out.println("v1");
+                System.out.println("v2");
             }
             else if (Objects.equals(comm, "exit")){
                 System.out.println("Bye");
                 Thread.sleep(1000);
                 break;
+            }
+            else if (Objects.equals(comm, "help")){
+                System.out.println("hello \t Hello World kiírása");
+                System.out.println("info \t verzió");
+                System.out.println("exit \t kilépés");
             }
         }
     }
